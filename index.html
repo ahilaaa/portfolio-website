@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+
+    <header class="header">
+      <!-- a href = anchor tag that creates clickable link to home page from name logo -->
+      <a href = "#home" class="logo"> 
+        Ahila <span>Ann</span> 
+      </a> 
+        
+      <!-- menu icon -->
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <!-- navigation bar (middle)-->
+      <nav class="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="gradient-btn">Contact Me</button>
+
+
+    </header>
+
+    <!-- home section-->
+    <section class="home" id="home"> <!-- class: style using .home in CSS, id: used for js -->
+      <div class="home-content">
+        <h1>Hi, its <span>Ahila</span></h1>
+        <h3>I'm a <span>Mechatronics Engineering and Computer Science</span> student at Monash University</h3>
+        <p> Passionate about software, robotics, and AI. </p>
+
+        <div class="social-icons">
+            <a href="https://github.com/ahilaaa" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ahila-fernandez-64a9b3152/?originalSubdomain=au" target="_blank">
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+        </div>
+        
+        <div class="btn-group">
+          <a href="resume.pdf" class="btn" target="_blank">Resume</a>
+          <a href="#contact" class="btn">Contact</a>
+ 
+        </div>
+          
+      </div>
+
+      <div class="home-img">
+        <img src="ahila cartoon.jpeg">
+      </div>
+      
+    </section>
+
+
+    <!-- about me section-->
+    <section class="about" id="about"> <!-- quick code: section.about#about -->
+      <div class="about-img">
+        <img src="ahila cartoon.jpeg">
+      </div>
+
+      <div class="about-content">
+        <h2> About <span>Me</span></h2>
+        <p> I am a Mechatronics Engineering and Computer Science student at Monash University with a 
+          passion for software development, AI (machine learning), and data visualization. 
+          <br><br>
+          As a Technology Intern at the National Bank of Australia (NAB), I worked with GitHub REST APIs and AWS, gaining hands-on experience in cloud infrastructure and automation. 
+          I have strong experience with Python, Java, and C++, and have experience in web development. 
+          <br><br>
+          Outside of engineering, I've taken on leadership roles, including captaining Monash University's intercollegiate League of Legends team, 
+          and have worked extensively in hospitality. </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+
+    </section> 
+
+
+    <!-- services section-->
+    <section class="services" id="services">
+
+      <h2 class="heading">Services</h2>
+      <div class="services-container">
+
+        <!-- web development card-->
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code"></i>
+            <h4> Web Development </h4>
+            <p> I can make a website to suit the needs of your business. </p>
+          </div>
+        </div>
+
+        <!-- object detection section-->
+        <div class="service-box">
+          <div class="service-info">
+            <i class="bx bx-code-curly"></i>
+            <h4> Object Detection </h4>
+            <p> I can make a model to categorise and label objects using YOLO. </p>
+          </div>
+        </div>
+
+         <!-- dog walking section-->
+         <div class="service-box">
+          <div class="service-info">
+            <i class="bx bxs-dog"></i>
+            <h4> Dog Walking </h4>
+            <p> I have raised dogs of all shapes and sizes with my family for over 10 years. 
+              Available for dog walking services within the South Eastern suburbs of Melbourne. </p>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+    <!-- projects section-->
+     <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="projects-box">
+
+        <div class="project-card">
+          <img src="shopping robot.png">
+          <h3>Shopping Robot</h3>
+          <p>Developed a shopping robot that created a map of a "supermarket maze" and autonomously navigated the map 
+            to 5 target "fruits and vegetables" using a rasberry pi and a camera on wheels.  <br> <br>
+            Incorporated techniques such as SLAM (Simultaneous Localisation and Mapping), 
+            object detection, pathfinding, behaviour trees and GUI.  </p>
+          <div class="social-icons">
+            <a href="https://github.com/ahilaaa" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="alpaca.avif">
+          <h3>Object detection: Alpaca Classification</h3>
+          <p> </p>
+          <div class="social-icons">
+            <a href="https://github.com/ahilaaa" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img src="fastfood1.png">
+          <h3>Dashboard: Fast Food Locations Melbourne</h3>
+          <p> Links between fast food location density, obesity rates and socioeconomic status in Melbourne Australia. <br><br> Created with Vegalite </p>
+          <div class="social-icons">
+            <a href="https://github.com/ahilaaa" target="_blank">
+              <i class="bx bxl-github"></i>
+            </a>
+          </div> 
+          <a href="https://ahilaaa.github.io/fit3179/" class="btn" target="_blank">View Project</a> 
+        </div>
+        
+
+
+        <div class="project-card">
+          <img src="death1.png">
+          <h3>Dashboard: Leading Causes of Mortality</h3>
+          <p>Leading causes of death for Men, Women and Indigenous populations in Australia. <br><br> Created with Tableau</p>
+          <a href="https://public.tableau.com/app/profile/ahila.krishnamurthi/viz/LeadingCausesofDeathAustralia/DASHBOARD" class="btn" target="_blank">View Project</a>
+        </div>
+
+        
+        </div>
+     </section>
+
+     <!-- contact me form section -->
+     <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+
+      <form action="#">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name">
+            <input type="email" placeholder="Email">
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Mobile Number">
+            <input type="text" placeholder="Subject">
+          </div>
+        </div>
+
+        <div class="input-group-2">
+          <textarea name="" id="" placeholder="Your Message" cols="30" rows="10"></textarea>
+          <input type="submit" value="Send Message" class="btn">
+        </div>
+
+      </form>
+     </section>
+
+      <!-- footer: social icons, links -->
+     <footer class="footer">
+      <div class="social-icons">
+        <a href="https://github.com/ahilaaa" target="_blank">
+          <i class="bx bxl-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ahila-fernandez-64a9b3152/?originalSubdomain=au" target="_blank">
+          <i class="bx bxl-linkedin-square"></i>
+        </a>
+      </div>
+      
+      <ul class="list">
+        <li>
+          <a href="#"> FAQ </a>
+        </li>
+
+        <li>
+          <a href="#services"> Services </a>
+        </li>
+
+        <li>
+          <a href="#about"> About Me </a>
+        </li>
+        
+        <li>
+          <a href="#projects"> Projects </a>
+        </li>
+
+        <li>
+          <a href="contact"> Contact </a>
+        </li>
+
+      </ul>
+
+      <p class="copyright">
+        © Ahila Ann | All Rights Reserved
+      </p>
+
+     </footer>
+
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>

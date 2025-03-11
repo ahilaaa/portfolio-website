@@ -1,0 +1,6 @@
+- fast food visualisation, death visualisation
+- ece3078 robot thingy
+
+TODO:
+- alpaca detection????
+- notes app
