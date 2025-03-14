@@ -140,7 +140,7 @@ section{
 .home-img img{
   width: 32vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px var(--start-gradient);
+  box-shadow: 0 0 25px whitesmoke;
   transition: 0.4s ease-in-out;
 }
 .home-img img:hover{
@@ -212,7 +212,7 @@ section{
 .about-img img{
   width: 15vw;
   border-radius: 50%;
-  box-shadow: 0 0 25px var(--start-gradient);
+  box-shadow: 0 0 25px whitesmoke;
   transition: 0.4s ease-in-out;
 }
 .about-img img:hover{
@@ -311,7 +311,7 @@ section{
 }
 .projects-box {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
   align-items: stretch; /* Ensure items stretch */
   gap: 3rem;
   row-gap: 5rem;
@@ -341,7 +341,7 @@ section{
 }
 
 .project-card img {
-  max-width: 340px;
+  max-width: 330px;
   border-radius: 2em;
   object-fit: cover;
 }
