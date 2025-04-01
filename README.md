@@ -1,1 +1,1 @@
-Portfolio Website created with HTML, Java, CSS by Ahila Krishnamurthi
+Portfolio Website created with HTML, CSS and Javascript by Ahila Krishnamurthi
