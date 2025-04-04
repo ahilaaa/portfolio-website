@@ -172,14 +172,15 @@
         <div class="project-card">
           <img src="img/heartrate.jpg">
           <h3> IN - PROGRESS : Video-based Heart Rate Monitor</h3>
-          <p> Remote photoplethysmography (rPPG) is an emerging technology that uses cameras to non-invasively monitor 
-            physiological signals like heart rate, offering contactless vital sign monitoring with potential for remote 
-            healthcare applications.
+          <p> Remote photoplethysmography (rPPG) uses cameras to non-invasively monitor vital signals like heart rate, 
+            offering contactless monitoring with potential for remote healthcare applications.
             <br> <br>
-            Current model explores remote heart rate monitoring through three key steps:  <br> 
-            (1) identifying and localizing facial regions of interest (ROIs) to extract the mean green channel signal <br> 
+            The current model explores remote heart rate monitoring through three key steps:  <br> <br> 
+            (1) identifying and localizing facial regions of interest (ROIs) to extract the mean green channel signal using MediaPipe<br> 
             (2) filtering the extracted signal to isolate heart rate-related components <br> 
             (3) transforming the filtered 1D signal into a 2D time-frequency representation (TFR) using Short-Time Fourier Transform (STFT).
+            <br> <br>
+            Will be exploring the use of CNNs (supervised deep learning) in the future.
 
             <div class="social-icons">
             <a href="https://github.com/ahilaaa/Video-Based-Heart-Rate-Monitor" target="_blank">
